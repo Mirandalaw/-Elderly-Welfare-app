@@ -15,4 +15,4 @@ Elderly-Welfare-app
 - UI 설계
 - 클레스 다이어그램 설계
 - DB설계
-- 
+- 요구사항 명세서
