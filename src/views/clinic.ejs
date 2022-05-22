@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../public/style.css">
+    </head>
+    <body>
+       <div class="wrap">
+           <div class="find_h_bg">
+               <div class="header">
+                   <div class="logo">
+                        <a href="/">
+                            <img src="image/logo.png">  
+                        </a>
+                        <a href="/">
+                            <h1>여기issue</h1>
+                        </a>
+                   </div>
+                   <ul class="nav">
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="login">LOGIN</a></li>
+                        <li><a href="mypage.html">MY</a></li>
+                        <li><a href="sitemap.html">SITEMAP</a></li>
+                   </ul>
+               </div>
+           </div>
+           <!-- intro end -->
+           <ul class="menu1">
+                <li>
+                    <div class="contents1"><a href="#">응급실 찾기</a></div>
+                </li>
+                <li class="present">
+                    <div class="contents1"><a href="hospitalFind">병원 찾기</a></div> 
+                </li>
+                <li> 
+                    <div class="contents1"><a href="#">약국 찾기</a></div>
+                </li>
+                <li>
+                    <div class="contents1"><a href="#">구급차 부르기</a></div>
+                    <ul class="submenu1">
+                        <li><a href="#">119 구급차</a></li>
+                        <li><a href="#">사설 구급차</a></li>
+                    </ul>
+                </li>
+           </ul>
+           <!-- menu1 end -->
+           <div class="find_clinic">
+               <div class="search_h">
+                    <label for="">병원 찾기 > </label>
+                    <input type="text" value="의원">
+                    <button class="reset" type="reset"><img src="image/cancel.png" alt=""></button>
+                    <button class="searchicon"><img src="image/search2.png" alt=""></button>
+                </div>
+                <div class="location2">
+                    <label for="location">현재 위치(GPS) :</label>
+                    <input type="text" name="location" id="location" autocomplete="off" required>
+                    <!-- 필터기능 -->
+                </div>
+                <table class="clinic">
+                    <tr id="sum"><td><pre>총 N개</pre></td></tr>
+                    <tr>
+                        <td><li class="clinicbox">의원</li></td>
+                        <!-- <td class="gh_list"></td> -->
+                    </tr>
+                </table>
+                <!--화면상 지도 위치만 보기 -->
+                <div class="map"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.3273218519307!2d127.1256713971345!3d37.382090754530935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b57f70a3def75%3A0x9a841fab3fc65a7b!2z67aE64u57Jis66a87ZS97Iqk7Y-s7Lig7IS87YSw!5e0!3m2!1sko!2skr!4v1569676495045!5m2!1sko!2skr" 
+                        width="450" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../public/style.css">
+    </head>   
+    <body>
+       <div class="wrap">
+           <div class="find_h_bg">
+               <div class="header">
+                   <div class="logo">
+                        <a href="/">
+                            <img src="../image/logo.png">  
+                        </a>
+                        <a href="/">
+                            <h1>여기issue</h1>
+                        </a>
+                   </div>
+                   <ul class="nav">
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="login">LOGIN</a></li>
+                        <li><a href="mypage.html">MY</a></li>
+                        <li><a href="sitemap.html">SITEMAP</a></li>
+                   </ul>
+               </div>
+           </div>
+           <!-- intro end -->
+           <ul class="menu1">
+                <li>
+                    <div class="contents1"><a href="#">응급실 찾기</a></div>
+                </li>
+                <li class="present">
+                    <div class="contents1"><a href ="hospitalFind">병원 </form> </div> 
+                </li>
+                <li> 
+                    <div class="contents1"><a href="#">약국 찾기</a></div>
+                </li>
+                <li>
+                    <div class="contents1"><a href="#">구급차 부르기</a></div>
+                    <ul class="submenu1">
+                        <li><a href="#">119 구급차</a></li>
+                        <li><a href="#">사설 구급차</a></li>
+                    </ul>
+                </li>
+           </ul>
+           <!-- menu1 end -->
+           <div class="find_h">
+                <!-- <h2>현재 위치(GPS) : </h2> -->
+                <div class="location">
+                    <label for="location">현재 위치(GPS) :</label>
+                    <input type="text" name="location" id="location" autocomplete="off" required>
+                    <button class="gpsicon"><img src="../image/location.png" alt=""></button>
+                    <button class="searchicon"><img src="../image/search.png" alt=""></button>
+                </div>
+                <h5>*상자 클릭 시 거리별 병원 나열</h5>
+                <table class="hospital">
+                    <tr>
+                        <td><li class="h_list"><a href="hospitalFind/generalH">종합병원</a></li></td>
+                        <td class="h_content">의료법에 규정되어 있는 여러 진료 과목을 고루 갖춘 병원.<br>
+                            입원 환자 100명 이상을 수용할 수 있고, 진료 과목이 적어도 내과ㆍ일반 외과ㆍ소아과ㆍ<br>
+                            산부인과ㆍ방사선과ㆍ마취과ㆍ진단 검사 의학과ㆍ정신과ㆍ치과가 설치되어 있으며,<br>
+                            각 과마다 필요한 전문의를 갖춘 의료 기관이다
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><li class="h_list"><a href="hospitalFind/clinic">의원</a></li></td>
+                        <td class="h_content">1차 의료기관이다. 의원과 병원을 구분하는 기준은 환자를 입원시킬 수 있는<br>
+                            병상의 숫자다. 의원에서는 일상적인 건강상담과 함께 해당 전문과목이 아닌 부분도 <br>
+                            상담해주고, 그에 따른 안내도 해준다.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><li class="h_list"><a href="hospitalFind/universalH">대학병원</a></li></td>
+                        <td class="h_content">교육 병원의 역할을 하는 중추 기관으로서 의과 대학 또는 의학 대학원에<br>
+                            부속되어 있는 병원이다. 3차 의료 기관으로서 법에 정해진 시설을 갖추고<br>
+                            1차, 2차 의료 기관에서 치료할 수 없는 병을 치료한다.
+                        </td>
+                    </tr>
+                </table>        
+           </div>
+        </div>
+    </body>
+</html>
