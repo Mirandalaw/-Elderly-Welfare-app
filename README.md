@@ -1,6 +1,6 @@
 Elderly-Welfare-app
 
-1. Main Client 설정
+1. Main Client  : 30대 직장인 층
 2. UI 설계
 3. 요구사항 명세서
 4. Class Diagram 설계 
