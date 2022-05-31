@@ -9,6 +9,6 @@ Elderly-Welfare-app
  기능 
 1. 내 현재 위치와 근처 병원 위치 비교해서 m,km로 보여주기
   -  kakao map api 이용
-2. 병원 나열
+2. 병원 나열 및 분류
 3. 기능별 분류
 4. 
